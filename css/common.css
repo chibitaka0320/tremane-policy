@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: "Hiragino maru Gothic ProN W4", "Hiragino Kaku Gothic Pro","Hiragino Sans", "arial", "Meiryo", "MS PGothic", sans-serif!important;
+    min-width: 380px;
+}
+
+/* ヘッダー */
+header{
+    background-color: #4FB9FC;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0;
+    color:white;
+}
+
+/* メイン */
+main{
+    background-color:#F2F2F2;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+/* ヘッダー */
+.main-header h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+}
+.main-header p {
+    max-width: 600px;
+    margin:0 auto;
+}
+
+/* コンテンツ */
+.contents {
+    max-width: 600px;
+    margin: 40px auto 0;
+}
+.contents h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* 免責 */
+.disclaimer {
+    margin-top: 100px;
+}
+
+/* レスポンシブ800 */
+@media screen and (max-width:800px) {
+    header h1{
+        font-size: 20px;
+    }
+    main {
+        max-width: 100%;
+        margin: 0;
+        padding-bottom: 40px;
+	}
+	.main-header  p{
+        max-width: 100%;
+	}
+	.contents {
+        max-width: 100%;
+	}
+    .main-header h1{
+        font-size: 20px;
+    }
+    .contents h2 {
+        font-size: 15px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+
